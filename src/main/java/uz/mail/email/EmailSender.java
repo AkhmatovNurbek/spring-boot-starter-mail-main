@@ -24,7 +24,7 @@ public class EmailSender {
     @Bean
     public void send() {
         sendEmail(SimpleEmail.builder()
-                .receiver("axmatov0713@gmail.com")
+                .receiver("")
                 .subject("Hello ")
                 .text("This is a hello from no one")
                 .build());
